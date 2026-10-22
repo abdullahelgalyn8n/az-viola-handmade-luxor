@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+      <defs>
+        <radialGradient id="bg3" cx="50%" cy="45%" r="65%">
+          <stop offset="0%" stop-color="#FCF9F4"/>
+          <stop offset="100%" stop-color="#E8DEC9"/>
+        </radialGradient>
+        <linearGradient id="conc" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#F2ECE1"/>
+          <stop offset="55%" stop-color="#DDD2C0"/>
+          <stop offset="100%" stop-color="#BFB099"/>
+        </linearGradient>
+        <linearGradient id="goldrim" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#9B6E2C"/>
+          <stop offset="50%" stop-color="#F5DC9F"/>
+          <stop offset="100%" stop-color="#875C1E"/>
+        </linearGradient>
+      </defs>
+      <rect width="800" height="600" fill="url(#bg3)"/>
+      <ellipse cx="400" cy="465" rx="175" ry="26" fill="#000000" opacity="0.14"/>
+      <!-- Travertine Tray -->
+      <ellipse cx="400" cy="458" rx="190" ry="28" fill="#D5C7B2" stroke="#BDAE96" stroke-width="2"/>
+      <!-- Concrete Fluted Vessel -->
+      <path d="M275 265 L525 265 L500 435 C495 458, 305 458, 300 435 Z" fill="url(#conc)" stroke="#C8B9A3" stroke-width="2"/>
+      <!-- Gold Leaf Inlay Kintsugi Vein -->
+      <path d="M335 265 L355 320 L342 365 L378 446" fill="none" stroke="url(#goldrim)" stroke-width="4"/>
+      <!-- Warm Soy Wax & Dual Wooden Wicks -->
+      <ellipse cx="400" cy="265" rx="125" ry="22" fill="#FFFDF8" stroke="url(#goldrim)" stroke-width="4"/>
+      <rect x="355" y="246" width="12" height="18" rx="2" fill="#4A3423"/>
+      <rect x="433" y="246" width="12" height="18" rx="2" fill="#4A3423"/>
+      <!-- Warm Flames -->
+      <path d="M361 215 C370 230, 368 244, 361 246 C354 244, 352 230, 361 215 Z" fill="#F59E0B"/>
+      <path d="M439 215 C448 230, 446 244, 439 246 C432 244, 430 230, 439 215 Z" fill="#F59E0B"/>
+      <!-- Relief Lotus Stamp -->
+      <circle cx="400" cy="360" r="34" fill="#E8DFD1" stroke="url(#goldrim)" stroke-width="2.5"/>
+      <text x="400" y="365" text-anchor="middle" fill="#8C6226" font-family="serif" font-size="14" letter-spacing="2" font-weight="bold">VIOLA</text>
+    </svg>

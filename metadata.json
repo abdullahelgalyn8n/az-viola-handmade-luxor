@@ -1,0 +1,6 @@
+{
+  "name": "Viola Handmade Luxor — Artisan Candles, Soaps & Pharaonic Crafts",
+  "description": "Authentic handmade soy candles, natural artisan soaps, Pharaonic magnets, concrete vessels, and decorative crafts from the heart of Luxor, Egypt.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+      <defs>
+        <radialGradient id="bg" cx="50%" cy="45%" r="65%">
+          <stop offset="0%" stop-color="#FBF8F3"/>
+          <stop offset="100%" stop-color="#EAE0D0"/>
+        </radialGradient>
+        <linearGradient id="cyl" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#8A6228"/>
+          <stop offset="28%" stop-color="#E5C483"/>
+          <stop offset="52%" stop-color="#FFF0C9"/>
+          <stop offset="76%" stop-color="#C29548"/>
+          <stop offset="100%" stop-color="#6E4B1A"/>
+        </linearGradient>
+        <linearGradient id="noir" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#1A1715"/>
+          <stop offset="40%" stop-color="#38322E"/>
+          <stop offset="100%" stop-color="#12100E"/>
+        </linearGradient>
+      </defs>
+      <rect width="800" height="600" fill="url(#bg)"/>
+      <ellipse cx="400" cy="525" rx="145" ry="22" fill="#000000" opacity="0.14"/>
+      <ellipse cx="400" cy="522" rx="95" ry="12" fill="#000000" opacity="0.22"/>
+      <!-- Pedestal -->
+      <path d="M270 495 L530 495 L550 530 L250 530 Z" fill="#DCD0BE" stroke="#C5B49B" stroke-width="2"/>
+      <rect x="250" y="525" width="300" height="14" rx="4" fill="#C4B39A"/>
+      <!-- Hose -->
+      <path d="M355 160 C295 165, 290 270, 305 395 L322 395 C310 275, 315 182, 355 178 Z" fill="url(#noir)"/>
+      <rect x="298" y="385" width="28" height="55" rx="5" fill="url(#cyl)"/>
+      <!-- Valve & Handle -->
+      <rect x="378" y="122" width="44" height="48" rx="6" fill="url(#cyl)"/>
+      <path d="M370 125 L485 102 L488 116 L390 138 Z" fill="url(#cyl)"/>
+      <path d="M372 138 L475 152 L473 164 L375 148 Z" fill="url(#noir)"/>
+      <circle cx="400" cy="145" r="14" fill="#1F4E3D" stroke="#E5C483" stroke-width="4"/>
+      <!-- Main Cylinder -->
+      <path d="M325 225 C325 175, 475 175, 475 225 L475 495 C475 512, 325 512, 325 495 Z" fill="url(#cyl)"/>
+      <!-- Matte Charcoal Belly Band with Pharaonic Lotus & Key -->
+      <rect x="325" y="265" width="150" height="165" fill="url(#noir)"/>
+      <rect x="325" y="265" width="150" height="6" fill="#E5C483"/>
+      <rect x="325" y="424" width="150" height="6" fill="#E5C483"/>
+      <!-- Lotus Emblem in Gold -->
+      <path d="M400 295 C412 320, 412 348, 400 368 C388 348, 388 320, 400 295 Z" fill="none" stroke="#E5C483" stroke-width="3"/>
+      <path d="M400 368 C422 355, 438 332, 434 308 C416 320, 406 342, 400 368 Z" fill="none" stroke="#E5C483" stroke-width="3"/>
+      <path d="M400 368 C378 355, 362 332, 366 308 C384 320, 394 342, 400 368 Z" fill="none" stroke="#E5C483" stroke-width="3"/>
+      <text x="400" y="395" text-anchor="middle" fill="#E5C483" font-family="serif" font-size="16" letter-spacing="4" font-weight="bold">VIOLA LUXOR</text>
+      <text x="400" y="412" text-anchor="middle" fill="#B89B67" font-family="sans-serif" font-size="9" letter-spacing="2">ARTISAN SAFETY EDITION</text>
+    </svg>

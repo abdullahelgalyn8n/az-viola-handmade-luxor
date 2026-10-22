@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+      <defs>
+        <radialGradient id="bg2" cx="50%" cy="45%" r="65%">
+          <stop offset="0%" stop-color="#F8F5F0"/>
+          <stop offset="100%" stop-color="#E2D8C7"/>
+        </radialGradient>
+        <linearGradient id="body2" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#141312"/>
+          <stop offset="32%" stop-color="#2F2B28"/>
+          <stop offset="55%" stop-color="#433E39"/>
+          <stop offset="85%" stop-color="#1C1A18"/>
+          <stop offset="100%" stop-color="#0E0D0C"/>
+        </linearGradient>
+        <linearGradient id="brass" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#8A6228"/>
+          <stop offset="45%" stop-color="#F2D59B"/>
+          <stop offset="100%" stop-color="#75511E"/>
+        </linearGradient>
+      </defs>
+      <rect width="800" height="600" fill="url(#bg2)"/>
+      <ellipse cx="400" cy="525" rx="145" ry="20" fill="#000000" opacity="0.18"/>
+      <path d="M270 495 L530 495 L550 530 L250 530 Z" fill="#E6DDD0" stroke="#C9B9A3" stroke-width="2"/>
+      <!-- Brass Valve -->
+      <rect x="378" y="122" width="44" height="48" rx="6" fill="url(#brass)"/>
+      <path d="M370 125 L485 102 L488 116 L390 138 Z" fill="url(#brass)"/>
+      <path d="M372 138 L475 152 L473 164 L375 148 Z" fill="url(#brass)"/>
+      <!-- Cylinder -->
+      <path d="M325 225 C325 175, 475 175, 475 225 L475 495 C475 512, 325 512, 325 495 Z" fill="url(#body2)"/>
+      <!-- Gold Pharaonic Border Rings -->
+      <rect x="325" y="245" width="150" height="8" fill="url(#brass)"/>
+      <rect x="325" y="445" width="150" height="8" fill="url(#brass)"/>
+      <!-- Eye of Horus Minimal Emblem -->
+      <circle cx="400" cy="330" r="36" fill="none" stroke="url(#brass)" stroke-width="2.5"/>
+      <ellipse cx="400" cy="330" rx="22" ry="11" fill="none" stroke="url(#brass)" stroke-width="2.5"/>
+      <circle cx="400" cy="330" r="6" fill="url(#brass)"/>
+      <path d="M398 341 L392 360 M404 341 L414 356 C418 361, 412 365, 408 361" fill="none" stroke="url(#brass)" stroke-width="2.5"/>
+      <text x="400" y="395" text-anchor="middle" fill="#F2D59B" font-family="serif" font-size="15" letter-spacing="4">HORUS GUARD</text>
+      <text x="400" y="414" text-anchor="middle" fill="#A39278" font-family="sans-serif" font-size="9" letter-spacing="2">HAND-FINISHED IN LUXOR</text>
+    </svg>
