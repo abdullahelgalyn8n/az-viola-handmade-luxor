@@ -199,26 +199,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
         {/* Zone 3: Action Controls (Search, Language Switcher, Wishlist, Cart) */}
         <div className="flex items-center gap-2 sm:gap-3 shrink-0">
-          {/* Copyable Direct Page Link Indicator */}
-          <button
-            type="button"
-            onClick={handleCopyUrl}
-            title={
-              lang === 'ar'
-                ? `نسخ رابط الصفحة: ${currentRoute.path}`
-                : `Copy page link: ${currentRoute.path}`
-            }
-            className="hidden lg:inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-[#F4EDE1] hover:bg-[#EAE0CE] border border-[#DCD0BC] text-xs font-mono text-[#4A3828] transition-colors cursor-pointer"
-          >
-            {copiedUrl ? (
-              <Check className="w-3.5 h-3.5 text-[#1F6E43]" />
-            ) : (
-              <Link2 className="w-3.5 h-3.5 text-[#7C4D15]" />
-            )}
-            <span className="max-w-[150px] truncate" dir="ltr">
-              {currentRoute.path}
-            </span>
-          </button>
+          
 
           {/* Search Toggle */}
           <button
@@ -315,13 +296,7 @@ export const Navbar: React.FC<NavbarProps> = ({
         <div className="md:hidden border-t border-[#E4DAC8] bg-[#FFFDF9] px-4 py-4 space-y-2">
           <div className="flex items-center justify-between px-3 py-1.5 rounded-lg bg-[#F4EDE1] text-xs font-mono text-[#4A3828]">
             <span dir="ltr">URL: {currentRoute.path}</span>
-            <button
-              type="button"
-              onClick={handleCopyUrl}
-              className="font-sans font-semibold text-[#7C4D15]"
-            >
-              {copiedUrl ? (lang === 'ar' ? 'تم النسخ' : 'Copied') : lang === 'ar' ? 'نسخ الرابط' : 'Copy Link'}
-            </button>
+            
           </div>
           <a
             href="/"
